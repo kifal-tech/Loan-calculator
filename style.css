@@ -1,0 +1,28 @@
+table{
+  width: -webkit-fill-available;
+}
+
+tr{
+  text-align: start;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+
+tr:nth-child(odd){
+  background-color: #444444;
+}
+th,tr:nth-child(even){
+  background-color: #605353;
+}
+.alertDiv{
+  background: rgb(209, 118, 118);
+  color: white;
+  padding-top: 0.8rem;
+  font-size: 1.3rem;
+}
